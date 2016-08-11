@@ -18,11 +18,6 @@ myApp.directive('calculator', function() {
                           +'</button>'
                           +'</div>';
        //dir.templateUrl = 'calculator.html'; //
-
-       /*dir.link =function(scope, iElement, iAttrs) {
-         
-       }*/
-       
     return dir;
 });
 
@@ -31,16 +26,14 @@ myApp.controller('CalcuController',function docal($scope,MathNumbers){
   
      $scope.out     = '';
      $scope.result  = 0;
-   
-     //display function
+    //display function. click 
      $scope.display = function (number){
   
     	if($scope.out!='undefined' && number!='=' && number!='c' && number!='<-'){
     		$scope.out = $scope.out+number;
     	}
 
-      if($scope.calinput!=''){
-
+     if($scope.calinput!=''){
       switch(number){
 
          case 'c':
@@ -64,9 +57,7 @@ myApp.controller('CalcuController',function docal($scope,MathNumbers){
          default:
           break
          }
-
-    	
-    	  }
+        }
 
     }
 
@@ -104,11 +95,9 @@ myApp.factory('MathNumbers', function() {
                      '4','5','6','-',
                      '1','2','3','*',
                      '0','.','='];
-             
-
+        
       return numbs;
    }
-
    return factory;
 }); 
 
