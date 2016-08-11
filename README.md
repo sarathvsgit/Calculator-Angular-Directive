@@ -37,4 +37,4 @@ In your webpage add the direcive.
  * cover sources with unit-tests
  * research in performance optimizations
  * search for bugs and fix them
- * star this project and get people to know about this plugin in angular community
+ 
