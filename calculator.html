@@ -1,0 +1,14 @@
+<div  class="calculator demo">
+
+     <div class="u4 display">
+      <div class="display-inner">{{out}}</div>
+        </div>
+        
+ <button ng-repeat="calkey in mykeys track by $index" ng-click="display(calkey)" 
+ ng-class="{'u2 ': calkey == '0' || calkey == '<-', 'button-blue' : calkey == '=' , 'button-red' : calkey == 'c' }"
+  class="u1 button button-gray" >
+  <div ng-if="calkey!='<-'">{{calkey}}</div>
+  <div ng-if="calkey=='<-'">Backspace</div>
+  </button>
+        </div>
+

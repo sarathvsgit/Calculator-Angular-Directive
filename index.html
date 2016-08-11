@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="demoPage">
+
+<head>
+<title>Angular Calculator</title>
+<script src="angular.min.js" /> </script>
+<script src="calculator.js" /> </script>
+<link   href="calculator.css" rel="stylesheet" />
+
+<script type="text/javascript">
+     //Add calculator directive dependency in your module
+	var pageApp = angular.module('demoPage', ['do-calculate']) ;
+</script>
+</head>
+<body>
+
+<calculator></calculator>
+
+</body>
+</html>
+
