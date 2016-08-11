@@ -28,6 +28,9 @@ In your webpage add the direcive.
 
 </html>
 ```
+**Demo**
+<a href="https://plnkr.co/edit/bU6M2N?p=preview"> Demo in plunker </a>
+
 **TODO-s (for contributors)**:
 
  * refactor some parts of code and make it easier to understand and maintain
