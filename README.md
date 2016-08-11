@@ -1,14 +1,13 @@
-# Angular, JavaScript  calculator
+# Angularjs, JavaScript  calculator
 
-This is a basic Angular project  just to play around with Angularjs and directive.
+This is a basic Angular project  just to play around with Angularjs .
  
 Angular custom directive for simple calculator .In this project, I had
 created a custom directive for calculator.    
 
 #Angular calculator directive
 ========================
-
-This directive allows to show calculator in your webpage.
+This directive allows to show a simple calculator in your webpage.
 
 Open index.html to see the example how to use this directive.
 
