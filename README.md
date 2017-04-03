@@ -31,6 +31,8 @@ In your webpage add the direcive.
 **Demo**
 <a href="https://plnkr.co/edit/bU6M2N?p=preview"> Demo in plunker </a>
 
+https://sarathvsgit.github.io/example1/
+
 **TODO-s (for contributors)**:
 
  * refactor some parts of code and make it easier to understand and maintain
